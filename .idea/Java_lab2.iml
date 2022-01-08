@@ -8,18 +8,49 @@ public class Main {
           Jeśli liczba będzie podzielna przez 2 ostatnie cyfry waszego indeksu (podać nr indesu z uczelni)
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
-
+        /*nr indeksu:51140*/
+        z=1000;
+        do
+        {
+            if(z%40==0)
+            System.out.println("liczba " + z + "podzielna przez 40");
+            z--;
+        }while(z!=-1);
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
+          int z = 0;
+          int[] tab1 = new int[]{1,2,3,4,5};
+          while(z<=4)
+          {
+            System.out.println(tab1[z]);
+            z++;
+          }
         b) jak wyżej tylko dla tablicy typu double[],
+            int z = 0;
+            double[] tab1 = new double[]{1.2,2.6,3,4.44,5};
+            while(z<=4)
+            {
+                System.out.println(tab1[z]);
+                z++;
+            }
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
+            int z = 0;
+            string[] tab1 = new string[]{"wlazł","kotek","na","płotek","i"};
+            while(z<=4)
+            {
+                system.out.println(tab1[z]);
+                z++;
+            }
+
         */
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
+            Pętla będzie wykonywać się w nieskończoność
         b) a jak gdy damy false --> while(false)
+            Pętla nie wykona się ani razu
         */
 
 
